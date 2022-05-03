@@ -7,10 +7,7 @@ require __DIR__ . '/smshub.php';
 
 //APIKEY SMSHUB
 $key = AIzaSyDWuE6YOSNWaSLd_k-Nw5T1LDqhsXMJL9c
-
-if($key == null) {
-    die('Masukan apikey di line 9 goblog!!');
-}
+    
 echo '----------- AUTO REFF ONEASET WITH SMSHUB -----------'.PHP_EOL.PHP_EOL;
 use Curl\Curl;
 $agent = new userAgent();
