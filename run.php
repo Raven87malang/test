@@ -6,8 +6,7 @@ require_once __DIR__.'/userAgent.php';
 require __DIR__ . '/smshub.php';
 
 //APIKEY SMSHUB
-$key = AIzaSyDWuE6YOSNWaSLd_k-Nw5T1LDqhsXMJL9c
-    
+$key = f74Adfc00A580e6bdd47b388be29A2c6
 echo '----------- AUTO REFF ONEASET WITH SMSHUB -----------'.PHP_EOL.PHP_EOL;
 use Curl\Curl;
 $agent = new userAgent();
